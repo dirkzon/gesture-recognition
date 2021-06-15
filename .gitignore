@@ -1,0 +1,22 @@
+MANIFEST
+# ignore all image
+**/*.jpg
+**/*.JPG
+**/*.png
+
+# don't ignore test images
+!/test_images/*.jpg
+
+*.caffemodel
+
+.ipynb_checkpoints
+.jupyter_releaser_checkout
+
+# jetbrains IDE
+*.iml
+.idea/
+
+# ms IDE
+*.code-workspace
+.history
+.vscode
