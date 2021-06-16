@@ -20,9 +20,9 @@ Real time gesture recognition using OpenCV & Mediapipe
 - [Features](#features)
 - [Setup](#setup)
   - [Installation](#installation)
-  - [Usage](#Usage)
+  - [Usage](#usage)
 - [Dataset](#dataset)
-- [Try it yourself](#try-it-yourself)
+- [Work with the data](#work-with-the-data)
 - [Use your own data](#use-your-own-data)
 - [License](#license)
 
@@ -67,15 +67,15 @@ The structure should look like this:
 ```
 If you wish to use your own dataset click [Here](#use-your-own-data) to see how.
 
-## Try it yourself
-If you want to work on pre-processing the dataset yourself you can use the [notebook](Gesture%20recognition.ipynb). It's not necessary to process all the images yourself. the [dataframes](dataframes) directory contains both the raw points data and the pre-processed data.
+## Work with the data
+If you want to work on pre-processing the dataset yourself you can use the [notebook](Gesture%20recognition.ipynb). It's not necessary to process all the images yourself. the [`dataframes`](dataframes) directory contains both the raw points data and the pre-processed data.
 
-The [gesture-points-raw](gesture-points-raw.csv) data is not yet cleaned and still contains a large number of missing values. This dataframe can be used if you want to try your own technique of pre-processing the data.
+The [gesture-points-raw](gesture-points-raw.csv) data is not cleaned and contains a number of missing values. This dataframe can be used if you want to try your own technique of pre-processing.
 
-The [gesture-points-processed](gesture-points-processed.csv) contains the pre-processed dataframe. This is the pre-processed version of the raw dataframe. All missing values have been fixed, the data has been normalized. And a flipped version of the dataframe has been appeded. This dataset can be used if you want to try out your own technique in the modeling part of the notebook.
+The [gesture-points-processed](gesture-points-processed.csv) contains the pre-processed dataframe. This is the pre-processed version of the raw dataframe. All missing values have been fixed, the data has been normalized and a flipped version of the dataframe has been appeded. This dataset can be used if you want to try out your own technique of modeling.
 
 ## Use your own data
-If you have your own set of gesture images you can use the [notebook](Gesture%20recognition.ipynb) as a starting point. But you have to make sure that the images are put into a folder called 'images'. The structure should look [the same](#dataset) as if you were using the original dataset. And just follow the steps in the notebook.
+The [notebook](Gesture%20recognition.ipynb) should also work with other datasets of gesture images. But you have to make sure that the images are put into a folder called 'images'. The structure should look [the same](#dataset) as if you were using the original dataset. The openpose hand model is __NOT__ included inside this repository. This model can be downloaded [here](https://www.kaggle.com/changethetuneman/openpose-model?select=pose_iter_102000.caffemodel), and needs to be put in the [`openpose`](openpose) directory.
 
 ## License
 
