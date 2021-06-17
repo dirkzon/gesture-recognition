@@ -6,6 +6,7 @@ MANIFEST
 
 # don't ignore test images
 !/test_images/*.jpg
+!/examples/*.jpg
 
 *.caffemodel
 
