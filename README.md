@@ -36,6 +36,10 @@ Made for my fourth semester with Python. The goal of this project was to create 
 - __debug:__ visualize hand skeleton, confidence & more
 
 ## Setup
+### Prerequisites
+- Camera/Webcam
+- [Python](https://www.python.org/) > 3.0
+
 ### Installation
 To install all the dependencies run this command in the command line
 ```
