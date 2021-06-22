@@ -19,6 +19,7 @@ Real time gesture recognition using OpenCV & Mediapipe
 - [About](#about)
 - [Features](#features)
 - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
   - [Installation](#installation)
   - [Usage](#usage)
 - [Dataset](#dataset)
