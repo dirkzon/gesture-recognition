@@ -53,9 +53,9 @@ python gesture.py
 ```
 
 ## Dataset
-The *[Sign Language Digits Dataset](https://github.com/ardamavi/Sign-Language-Digits-Dataset) was used to train and test the model. 
+The [Sign Language Digits Dataset](https://github.com/ardamavi/Sign-Language-Digits-Dataset) was used to train and test the model.
 
->*Mavi, A., (2020), “A New Dataset and Proposed Convolutional  Neural Network Architecture for Classification of American Sign Language Digits”, arXiv:2011.08927
+>*Mavi, A., (2020), “A New Dataset and Proposed Convolutional  Neural Network Architecture for Classification of American Sign Language Digits”, arXiv:2011.08927 [cs.CV]*
 
 This repository does __NOT__ contain this data. So, if you want to process the images yourself you will have to download the dataset and put all the subfolders into a folder called `images`.
 The structure should look like this:
