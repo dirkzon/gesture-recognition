@@ -77,6 +77,13 @@ The [gesture-points-processed](dataframes/gesture-points-processed.csv) contains
 ## Use your own data
 The [notebook](Gesture%20recognition.ipynb) should also work with other datasets of gesture images. But you have to make sure that the images are put into a folder called `images`. The structure should look [the same](#dataset) as if you were using the original dataset. The openpose hand model is __NOT__ included inside this repository. This model can be downloaded [here](https://www.kaggle.com/changethetuneman/openpose-model?select=pose_iter_102000.caffemodel), and needs to be put in the [`openpose`](openpose) directory.
 
+There are some limitations for the dataset that need to be taken into account:
+
+- The hand in the image must be larger than 60x60 pixels.
+- Lower exposure images work better.
+
+This can be found in the [Dataset restrictions](Dataset%20restrictions.ipynb) notebook.
+
 ## License
 
 This software is licensed under [MIT](LICENSE)
