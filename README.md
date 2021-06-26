@@ -22,6 +22,7 @@ Real time gesture recognition using OpenCV & Mediapipe
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
   - [Usage](#usage)
+- [Approach](#approach)
 - [Dataset](#dataset)
 - [Work with the data](#work-with-the-data)
 - [Use your own data](#use-your-own-data)
@@ -39,7 +40,7 @@ Made for my fourth semester with Python. The goal of this project was to create 
 ## Setup
 ### Prerequisites
 - Camera/Webcam
-- [Python](https://www.python.org/) > 3.0
+- [Python](https://www.python.org/)
 
 ### Installation
 To install all the dependencies run this command in the command line
@@ -51,6 +52,9 @@ To start the app run the `gesture.py` file
 ```
 python gesture.py
 ```
+
+## Approach
+The [approach](approach.pdf) document explains the score of the project and my approach to different topics like choosing a hand pose estimation model, getting a dataset and training a model. It also contains some reccomentations for all these subjects.
 
 ## Dataset
 The [Sign Language Digits Dataset](https://github.com/ardamavi/Sign-Language-Digits-Dataset) was used to train and test the model.
@@ -87,7 +91,7 @@ There are some limitations for the dataset that need to be taken into account:
 - The hand in the image must be larger than 60x60 pixels.
 - Lower exposure images work better.
 
-This can be found in the [Dataset restrictions](Dataset%20restrictions.ipynb) notebook.
+In the [Dataset restrictions](Dataset%20restrictions.ipynb)  you can see how i found these limitations. In the [approach](approach.pdf) document you can also find some more reccomendations for the dataset.
 
 ## License
 
