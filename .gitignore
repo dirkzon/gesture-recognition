@@ -25,3 +25,6 @@ MANIFEST
 *.code-workspace
 .history
 .vscode
+
+# venv
+venv/
