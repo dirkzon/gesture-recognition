@@ -20,8 +20,7 @@ Real time gesture recognition using OpenCV & Mediapipe
 - [Features](#features)
 - [Setup](#setup)
   - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Usage](#usage)
+  - [Starting the final application](#starting-the-final-application)
 - [Approach](#approach)
 - [Dataset](#dataset)
 - [Work with the data](#work-with-the-data)
@@ -32,23 +31,34 @@ Real time gesture recognition using OpenCV & Mediapipe
 Made for my fourth semester with Python. The goal of this project was to create a real time gesture recognition app which is able to recognize american sign language gestures. The [model](./model) that this app uses is able to recognize gestures for digits '0' to '9'. The [notebook](Gesture%20recognition.ipynb) explains how this model was made.
 
 ## Features
-- __real time:__ gesture recognition in real time
-- __multiple hands:__ multiple hands can be recognized at once
-- __ambidextrous:__ recognize gestures on both left and right hand
-- __debug:__ visualize hand skeleton, confidence & more
+- __real time:__ gesture recognition in real time.
+- __multiple hands:__ multiple hands can be recognized at once.
+- __ambidextrous:__ recognize gestures on both left and right hand.
+- __debug:__ visualize hand skeleton, confidence & more.
 
 ## Setup
 ### Prerequisites
 - Camera/Webcam
 - [Python](https://www.python.org/)
+- [Jupyter](https://jupyter.org/install)
 
-### Installation
-To install all the dependencies run this command in the command line
+### Starting the final application
+1. CD into the project folder.
+```
+cd gesture-recognition
+```
+2. Create and start a new python environment.
+```
+python -m venv venv
+```
+```
+venv/Scripts/activate
+```
+3. Install all requirements using the [requirements.txt](requirements.txt) file.
 ```
 pip install -r requirements.txt
 ```
-### Usage
-To start the app run the `gesture.py` file
+4. Run the [gesture.py](gesture.py) file.
 ```
 python gesture.py
 ```
@@ -94,5 +104,4 @@ There are some limitations for the dataset that need to be taken into account:
 In the [Dataset restrictions](Dataset%20restrictions.ipynb)  you can see how i found these limitations. In the [approach](approach.pdf) document you can also find some more reccomendations for the dataset.
 
 ## License
-
 This software is licensed under [MIT](LICENSE)
