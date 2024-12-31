@@ -63,6 +63,11 @@ pip install -r requirements.txt
 python gesture.py
 ```
 
+5. Close the application by pressing `q`, and deactivate the enrionment.
+```
+deactivate
+```
+
 ## Approach
 The [approach](approach.pdf) document explains the score of the project and my approach to different topics like choosing a hand pose estimation model, getting a dataset and training a model. It also contains some reccomentations for all these subjects.
 
