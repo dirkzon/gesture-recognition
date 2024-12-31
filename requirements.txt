@@ -6,4 +6,4 @@ opencv-python
 pandas
 scikit-learn
 seaborn
-skimage
+scikit-image
